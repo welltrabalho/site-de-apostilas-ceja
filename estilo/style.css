@@ -192,7 +192,10 @@ main h2{
     line-height: 1.5em;
 }
 
+}
+
 ul{
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
+    line-height: 1.5em;
 }
