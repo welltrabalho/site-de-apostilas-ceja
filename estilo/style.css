@@ -198,3 +198,17 @@ ul{
     line-height: 1.5
 }
 
+/* css da próxima pagina apostilas.html*/
+
+#apostilas{
+    min-height:80px;
+    text-align: center;
+    padding: 40px 40px 0px ;
+}
+
+#teste{
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    margin-bottom: 80px;
+    text-shadow: -3px -13px 0px rgba(0, 0, 0, 0.466);
