@@ -213,3 +213,20 @@ ul{
     margin-bottom: 80px;
     text-shadow: -3px -13px 0px rgba(0, 0, 0, 0.466);
 }
+
+#well a{
+    font-size: 24px;
+    background-color: #83e1ad;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid #1a5c37;
+    border-left: 1px solid red; /*left esquerda*/
+    transition: all .25s ease-in-out;
+}
+
+#well a:hover{
+    color: black;
+    background-color: white;
+}
