@@ -12,7 +12,7 @@
     --cor1: #C3DAE2;
     --cor2: #F7941E;
     --cor3: #005475;
-    --cor4: #1a5c37;
+    --cor4: #9D2174;
     --cor5: #002D42;
 /* --cor0: #c5ebd6;
     --cor1: #83e1ad;
@@ -31,7 +31,7 @@
     margin: 0px;
 }
 body{
-    background-color: var(--cor0);
+    background-color: var(--cor1);
     font-family: var(--fonte-padrao);
 }
 
@@ -41,7 +41,8 @@ a.externo::after {
 
 
 header{
-    background-image: linear-gradient(to bottom, var(--cor3),var(--cor5));
+    /*background-image: linear-gradient(to bottom, var(--cor0),var(--cor1));*/
+    background-image: url()
     min-height: 150px;
     text-align: center;
     padding: 40px 40px 30px ;
@@ -83,7 +84,7 @@ nav a:hover{
 
 }
 nav a {
-    color: white;
+    color: #F7941E;
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
