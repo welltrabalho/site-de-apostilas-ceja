@@ -8,12 +8,18 @@
 }
 
 :root{
-    --cor0: #c5ebd6;
+    --cor0: #005476;
+    --cor1: #C3DAE2;
+    --cor2: #F7941E;
+    --cor3: #005475;
+    --cor4: #1a5c37;
+    --cor5: #002D42;
+/* --cor0: #c5ebd6;
     --cor1: #83e1ad;
     --cor2: #3ddc84;
     --cor3: #2fa866;
     --cor4: #1a5c37;
-    --cor5: #063d1e;
+    --cor5: #063d1e;*/
 
     --fonte-padrao: Arial, verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', sans-serif;
@@ -216,13 +222,13 @@ ul{
 
 #well a{
     font-size: 24px;
-    background-color: #83e1ad;
+    background-color: var(--cor2);
     color: white;
     padding: 10px 20px;
     border-radius: 10px;
     text-decoration: none;
-    border: 1px solid #1a5c37;
-    border-left: 1px solid red; /*left esquerda*/
+    border: 1px solid var(--cor2);
+    border-left: 1px solid var(--cor5); /*left esquerda*/
     transition: all .25s ease-in-out;
 }
 
