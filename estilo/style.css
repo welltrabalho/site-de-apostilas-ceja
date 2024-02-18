@@ -31,7 +31,8 @@
     margin: 0px;
 }
 body{
-    background-color: var(--cor1);
+    /*background-color: var(--cor1);*/
+    background-image: url(../imagens/bg-login.jpg);
     font-family: var(--fonte-padrao);
 }
 
@@ -47,7 +48,6 @@ header{
     text-align: center;
     padding: 40px 40px 30px ;
 }
-
 
 header h1{
     color: white;
