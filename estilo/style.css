@@ -42,7 +42,7 @@ a.externo::after {
 
 header{
     /*background-image: linear-gradient(to bottom, var(--cor0),var(--cor1));*/
-    background-image: url()
+    background-image: url(../imagens/bg-login.jpg);
     min-height: 150px;
     text-align: center;
     padding: 40px 40px 30px ;
